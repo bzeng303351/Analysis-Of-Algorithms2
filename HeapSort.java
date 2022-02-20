@@ -248,5 +248,10 @@ public class HeapSort {
         System.out.println(Arrays.deepToString(arrays));
         System.out.println(Arrays.toString(sorted));
         System.out.println("sorted max to min: " + isSortedMaxToMin(sorted));
+
+        int[] a2 = {5, 3, 17, 10, 84, 19, 6, 22, 9};
+        HeapSort model2 = new HeapSort(a2);
+        model2.buildHeapBottomUp();
+        System.out.println(model2);
     }
 }
